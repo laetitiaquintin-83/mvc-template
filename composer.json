@@ -1,0 +1,16 @@
+{
+    "name": "hp/mvc-mini",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "laetitiaquintin-83",
+            "email": "laetitia.quintin@laplateforme.io"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,3 @@
+<h1> <?= htmlspecialchars($title ?? 'Accueil', ENT_QUOTES, 'UTF-8') ?>
+</h1>
+ 
