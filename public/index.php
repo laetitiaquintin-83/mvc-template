@@ -1,6 +1,9 @@
 <?php
 
 require_once __DIR__ .'/../vendor/autoload.php';
+
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ ."/../");
+$dotenv->safeLoad();
 // Importation des classes avec namespaces pour éviter les conflits de noms
 use Core\Router;
 
